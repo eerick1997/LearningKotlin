@@ -1,7 +1,7 @@
 package datastructures
 
 class SinglyLinkedList<T> {
-    class Node<T>(var data: T? = null, var next: Node<T>? = null) {}
+    private class Node<T>(var data: T? = null, var next: Node<T>? = null) {}
 
     private var head: Node<T>? = null
     private var tail: Node<T>? = null
